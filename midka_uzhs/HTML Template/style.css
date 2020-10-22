@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/*              Sass Template           */
+/*  global classes  */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography classes */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Template  */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+/*  top sale template   */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+.img-fluid{
+width: 100px;
+height: 180px;
+text-align: center;
+justify-content: center;
+}
+.img-fluid-1{
+ width: 180px;
+height: 200px;
+text-align: center;
+justify-content: center;
+}
+#main{
+  margin-top: 24px;
+  min-width: 320px;
+}
+#main.compliter{
+  border-collapse: collapse;
+  table-layout: fixed;
+  display: table;
+  width: 100%;
+}
+.blog-banner{
+  margin-bottom: 30px;
+}
+.global-block-container{
+  border-collapse: collapse;
+  table-layout: fixed;
+  display: table;
+  width: 100%;
+}
+.limiter{
+  padding: 0px 24px;
+  max-width: 1920px;
+  min-width: 320px;
+  margin: auto;
+  clear: both;
+}
+@media(max-width: 1024px)
+#right {
+  padding-left: 0px;
+}
+@media(max-width: 1024px)
+#right{
+  display:block;
+  width:100%;
+}
+#right{
+  display: table cell;
+  vertical-align: top;
+  padding-left: 24px;
+}
+h1{
+  font-family: "roboto_ltregular";
+  line-height: 36px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 24px;
+  font-size: 24px;
+  color: #000000;
+  display: block;
+}
+.banner-elem.arbitrary-banner.banner-no-bg .image img{
+    max-height: none;
+  }
+  .banner-elem .image{
+    width: 50%;
+  }
+
+  .banner-elem .image img{
+    max-height: 150px;
+  }
+  .banner-elem.arbitrary-banner{
+    height: 340px;
+  }
+
+  .banner-elem.arbitrary-banner .image{
+    width: 55%;
+  }
+
+  .banner-elem.arbitrary-banner .image img{
+    max-height: 340px;
+  }
+  .h2{
+  display: block;
+  margin-bottom: 6px;
+  font-family: "roboto_ltregular";
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+}
+.ff-medium{
+  font-family: "robotomedium";
+}
+body{
+  background: url('https://grocery.kz/upload/resize_cache/iblock/20f/550_500_1/20f494f002fa6c4827451056c5a714b4.png') center  cover no-repeat;
+}
+.main{
+text-align: center;
+width: 1000px;
+margin: 0 auto;
+background: #fff;
+position: relative;
+}
+main {
+    clear: both;
+    width: 780px;
+    margin: 0 auto;
+    padding: 60px 0 100px;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
